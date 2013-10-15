@@ -1,0 +1,19 @@
+<section id="input">
+	<form action="/" method="post">
+		<label for="weight">Weight</label>
+		<br>
+		<input type="number" name="weight" id="weight" placeholder="in lbs">
+		<br>
+		<label for="height">Height</label>
+		<br>
+		<input type="number" name="height" id="height" placeholder="in inches">
+		<br>
+		<input type="submit" value="Cross your fingers">
+	</form>
+</section>
+
+<div id="result">
+	<% if @bmi %>
+	<%= "#{@category[:category]}<br>#{@category[:message]}" %>
+	<% end %>
+</div>

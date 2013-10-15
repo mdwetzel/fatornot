@@ -1,0 +1,46 @@
+body { 
+	background-color:#FF4E51;
+	margin:20px auto;
+	width:500px;
+}
+
+#input { 
+	background-color:#7DE6FF;
+	border-radius:10px;
+	padding:25px;
+	text-align:center;
+}
+
+#result { 
+	color:#FFF;
+	font-size:3em;
+	margin-top:25px;
+	text-align:center;
+}
+
+input[type="number"] { 
+	border-radius:5px;
+	font-size:1.5em !important;
+	padding:5px;
+	text-align:center;
+}
+
+input[type="submit"] { 
+	margin-top:15px;
+}
+
+label { 
+	color:#FF9A65;
+	font-size:2em;
+}
+
+p {
+	font-size:3em;
+}
+
+header { 
+	color:#FFF;
+	font-size:4em;
+	margin-bottom:25px;
+	text-align:center;
+}
